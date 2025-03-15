@@ -2,10 +2,10 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "[my-framework] build --output public",
+        "build": "vite build --output public",
         "dev": "vite"
     },
-    
+   
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
         "axios": "^1.7.4",
