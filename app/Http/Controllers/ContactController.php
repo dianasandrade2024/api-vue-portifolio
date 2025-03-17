@@ -13,8 +13,6 @@ class ContactController extends Controller
      */
     public function index()
     {
-     
-        INFO('teste método index UserController');
         return response(Contact::all()->jsonSerialize()); 
     }
 
