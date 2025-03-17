@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ContactController;
 
-
+Route::get('/data',[simple::class,'index']);
 
 Route::get('/indexuser', 'App\Http\Controllers\UserController@index');
 
