@@ -16,5 +16,14 @@ class TestContact extends Controller
         
         return response()->json( $fakeData);
     }
+
+    public function store(Request $request): RedirectResponse
+    {
+        $name = $request->input('name');
+        $email = $request->input('email');
+
+ 
+        return redirect('/mycontact');
+    }
     
 }
