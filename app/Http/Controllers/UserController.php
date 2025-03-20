@@ -13,10 +13,7 @@ class UserController extends Controller
      */
     public function index()
     {
-  
-        INFO('teste método index UserController');
         return response(User::all()->jsonSerialize()); 
-        
     }
 
     /**

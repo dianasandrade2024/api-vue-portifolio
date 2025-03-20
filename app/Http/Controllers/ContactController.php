@@ -38,8 +38,6 @@ class ContactController extends Controller
        $contact->telephone = $request->telephone;  
        $contact->subject = $request->subject;  
        $contact->mensage = $request->mensage;  
-  
-
        $contact->save();           
     }
 

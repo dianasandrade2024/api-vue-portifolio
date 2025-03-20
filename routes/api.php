@@ -3,9 +3,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\simple;
+use App\Http\Controllers\TestContact;
 
-Route::get('/data','App\Http\Controllers\simple@index');
+Route::get('/testcontact','App\Http\Controllers\TestContact@index');
 
 Route::get('/indexuser', 'App\Http\Controllers\UserController@index');
 
